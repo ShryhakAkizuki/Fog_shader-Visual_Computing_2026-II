@@ -9,6 +9,7 @@ function setup() {
   fTexture = loadImage(TEXTURE_PATH)
 
   initFog();
+  initFogUI();
 
   noStroke();
 }

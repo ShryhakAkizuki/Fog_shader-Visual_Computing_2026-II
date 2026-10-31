@@ -32,3 +32,8 @@ const CAM_UP = [0, 1, 0];
 
 // ---- Textura ---
 const TEXTURE_PATH = 'assets/f-texture.png';
+
+// Sliders
+const FOG_MIN = 0;
+const FOG_MAX = FAR_PLANE;
+const FOG_STEP = 1;
