@@ -1,8 +1,8 @@
-const FOG_COLOR = [0.8, 0.9, 1.0];
+const FOG_COLOR = [0.8, 0.9, 1.0, 1.0];
 
 const settings = {
-    fogNear: 0.7,
-    fogFar: 0.9,
+    fogNear: 10.0,
+    fogFar: 500.0,
 };
 
 // ---- Cubos ---

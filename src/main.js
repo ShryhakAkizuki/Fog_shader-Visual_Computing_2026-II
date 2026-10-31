@@ -5,7 +5,10 @@ let modelY = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
-  fTexture = loadImage(TEXTURE_PATH);
+
+  fTexture = loadImage(TEXTURE_PATH)
+
+  initFog();
 
   noStroke();
 }
@@ -23,10 +26,12 @@ function draw() {
   modelX += ROT_X_SPEED * deltaTime / 1000;
   modelY += ROT_Y_SPEED * deltaTime / 1000;
 
-  texture(fTexture);
+  applyFog();
 
   for (let i = 0; i <= NUM_CUBES; i++) {
     push();
+    fogShader.setUniform('uTexture', fTexture);
+
     translate(CUBE_X_BASE + i * X_OFF, 0, -i * Z_OFF);
     rotateX(modelX + i * CUBE_PHASE);
     rotateY(modelY + i * CUBE_PHASE);
@@ -38,3 +43,4 @@ function draw() {
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
+
