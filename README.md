@@ -36,7 +36,6 @@ Escena WebGL interactiva construida con [p5.js](src/libraries/p5.min.js) que imp
 │   ├── estructura.md                # Estructura y flujo de datos
 │   ├── tecnica-shader-niebla.md     # Teoría e implementación del shader
 │   ├── referencia-configuracion.md  # Referencia de parámetros
-│   └── desarrollo.md                # Convenciones y guía de extensión
 └── src/
     ├── index.html                   # Punto de entrada (estilos + carga de scripts)
     ├── main.js                      # setup()/draw(): cámara, animación, cubos
