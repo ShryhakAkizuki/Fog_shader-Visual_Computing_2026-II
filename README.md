@@ -18,6 +18,7 @@ Escena WebGL interactiva construida con [p5.js](src/libraries/p5.min.js) que imp
 | Oscar Leonardo Riveros Perez | [ShryhakAkizuki](https://github.com/ShryhakAkizuki) |
 | Camilo Ferney Londoño Moreno | [CamiloLM](https://github.com/CamiloLM) |
 | Omar Nicolas Guerrero Guerrero | [camisabo](https://github.com/camisabo) |
+| Oscar Ivan Ulises Gutiérrez Palacios | [10scar](https://github.com/10scar) |
 
 
 
